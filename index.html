@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="fr">
+<html data-bs-theme="light" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -25,14 +25,14 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&amp;display=swap"
     />
     <link
       rel="stylesheet"
@@ -46,7 +46,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md bg-body py-3">
+    <nav class="navbar navbar-expand-md bg-body py-4">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.html"
           ><img
@@ -67,7 +67,9 @@
               <a class="nav-link active" href="#">A propos</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Galerie</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -75,12 +77,12 @@
     <div class="container py-md-4 py-3">
       <div class="row gy-4 gy-md-0">
         <div
-          class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center"
+          class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center"
         >
           <div style="max-width: 350px">
-            <h2 class="text-uppercase fw-bold">
-              Bienvennue sur<br />les éclats d'emma
-            </h2>
+            <h1 class="text-uppercase fw-bold">
+              Bienvenue sur<br />les éclats d'emma
+            </h1>
             <p class="my-3">
               <br />Explorez un monde d'art et de créativité à travers mon
               portfolio de <br />mosaïque, où des fragments de couleur et de
@@ -90,71 +92,96 @@
             <a
               class="btn btn-primary btn-lg border rounded-0 me-2"
               role="button"
-              href="#"
+              href="contact.html"
               >Contact</a
             >
           </div>
         </div>
         <div class="col-md-6">
-          <div class="p-xl-5 m-xl-5">
+          <div>
             <img
               class="rounded img-fluid border rounded-0 w-100 fit-cover"
-              style="min-height: 300px"
-              src="public/assets/img/vadim-sherbakov-RcdV8rnXSeE-unsplash.jpg"
+              style="min-height: 500px"
+              src="public/assets/img/20231107_101941.jpg"
             />
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row py-md-4 py-3">
+    <div class="container py-md-4">
+      <h2 class="text-center">Mes Projets</h2>
+      <p class="text-center">
+        <br />Découvrez un voyage artistique à travers mes réalisations en
+        mosaïque, <br />où chaque projet raconte une histoire unique de
+        créativité, de couleurs <br />vibrantes et de passion pour l&#39;art de
+        la mosaïque.<br /><br />
+      </p>
+      <div class="row gy-4 gy-md-0 py-2">
         <div class="col">
-          <div class="card bg-light border rounded-0 border-0 p-md-4">
-            <div class="row">
+          <div class="card bg-primary-subtle border rounded-0 border-0 my-md-3">
+            <div class="row gx-0">
               <div class="col-md-6 zoom-on-hover item">
                 <img
-                  class="img-fluid w-100 fit-cover"
+                  class="img-fluid fit-cover w-100 p-md-3"
                   width=""
                   height=""
-                  src="public/assets/img/patrick-fore-M1Vo1MFMvXI-unsplash.jpg"
-                  style="max-height: 300px"
+                  src="public/assets/img/20190114_205250.jpg"
+                  style="max-height: 350px"
                 />
               </div>
-              <div class="col-md-6">
-                <div class="card-body">
-                  <p class="card-text">Paragraph</p>
+              <div class="col-md-6 d-md-flex">
+                <div class="d-md-flex flex-column card-body ms-md-4 mt-md-3">
+                  <p class="fw-semibold text-primary d-md-flex card-text">
+                    Création
+                  </p>
                   <h5 class="card-title">Heading</h5>
                   <p class="card-text">Paragraph</p>
-                  <p class="card-text">
-                    <small class="text-secondary">Text</small>
-                  </p>
+                  <a
+                    class="fs-5 d-flex justify-content-end mt-md-auto"
+                    href="project_1.html"
+                  >
+                    <p class="card-text">
+                      <small class="text-secondary">Text</small
+                      ><i class="fa-solid fa-caret-right"></i>
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row py-md-4 py-3">
+      <div class="row gy-4 gy-md-0 py-2">
         <div class="col">
-          <div class="card bg-light border rounded-0 border-0 p-md-4">
-            <div class="row flex-md-row-reverse">
+          <div
+            class="card bg-secondary-subtle border rounded-0 border-0 my-md-3"
+          >
+            <div class="row gx-0 flex-row-reverse">
               <div class="col-md-6 zoom-on-hover item">
                 <img
-                  class="img-fluid d-block fit-cover w-100"
+                  class="img-fluid fit-cover w-100 p-md-3"
                   width=""
                   height=""
-                  src="public/assets/img/annie-spratt-Z5VMR-7s4JY-unsplash.jpg"
-                  style="max-height: 300px"
+                  src="public/assets/img/20190822_175157.jpg"
+                  style="max-height: 350px"
                 />
               </div>
-              <div class="col-md-6">
-                <div class="card-body">
-                  <p class="card-text">Paragraph</p>
+              <div class="col-md-6 d-md-flex">
+                <div class="d-md-flex flex-column card-body ms-md-4 mt-md-3">
+                  <p class="fw-semibold text-success d-md-flex card-text">
+                    Rénovation
+                  </p>
                   <h5 class="card-title">Heading</h5>
                   <p class="card-text">Paragraph</p>
-                  <p class="card-text">
-                    <small class="text-secondary">Text</small>
-                  </p>
+                  <a
+                    class="fs-5 d-flex justify-content-end mt-md-auto"
+                    href="project_1.html"
+                  >
+                    <p class="card-text">
+                      <small class="text-secondary">Text</small
+                      ><i class="fa-solid fa-caret-right text-success"></i>
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -172,6 +199,63 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <h2 class="text-center">Compétences</h2>
+      <div class="row">
+        <div class="col col-12 col-md-4">
+          <div class="card text-center border-0">
+            <div class="card-header border-0">
+              <img src="public/assets/img/icons8-art-100.png" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Art</h4>
+              <p class="card-text">
+                La créativité est mon moteur, et je mets en œuvre mon
+                imagination pour <br />concevoir des motifs et des compositions
+                mosaïque uniques, en <br />harmonisant les couleurs et les
+                formes pour susciter des émotions et des<br />
+                sensations uniques.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4">
+          <div class="card text-center border-0">
+            <div class="card-header border-0">
+              <img src="public/assets/img/icons8-compas-2-100.png" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Technique</h4>
+              <p class="card-text">
+                En tant que mosaïste expérimenté, je manie habilement une
+                variété de <br />matériaux et d'outils pour créer des œuvres
+                d'art en mosaïque, en <br />veillant à ce que chaque carreau
+                soit placé avec précision pour obtenir <br />un résultat
+                impeccable.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4">
+          <div class="card text-center border-0">
+            <div class="card-header border-0">
+              <img src="public/assets/img/icons8-sablier-100.png" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Patience</h4>
+              <p class="card-text">
+                La mosaïque exige une minutie méticuleuse, et ma capacité à
+                travailler <br />avec une grande précision me permet de créer
+                des œuvres d'art où chaque <br />carreau est soigneusement
+                positionné, chaque joint est parfaitement <br />ajusté, et le
+                résultat final est un reflet de mon engagement envers la
+                <br />qualité.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="text-center">
       <div class="container text-muted py-4 py-lg-5">
         <ul class="list-inline">
@@ -185,7 +269,7 @@
             <a class="link-secondary" href="#">Galerie</a>
           </li>
           <li class="list-inline-item">
-            <a class="link-secondary" href="#">Contact</a>
+            <a class="link-secondary" href="contact.html">Contact</a>
           </li>
         </ul>
         <ul class="list-inline">
